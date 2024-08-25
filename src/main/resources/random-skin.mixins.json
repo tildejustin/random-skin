@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "dev.tildejustin.randomskin.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerListEntryMixin$class_1890$1Mixin",
+    "accessor.MinecraftClientAccessor",
+    "accessor.PlayerListEntryAccessor"
+  ],
+  "client": [
+    "DefaultSkinHelperMixin",
+    "PlayerListEntryMixin",
+    "SkinOptionsScreenMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

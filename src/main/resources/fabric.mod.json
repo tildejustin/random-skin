@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "random-skin",
   "version": "${version}",
-  "name": "",
+  "name": "Random Skin",
   "description": "",
   "authors": [
     "tildejustin"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/modid",
-    "sources": "https://github.com/tildejustin/modid",
-    "issues": "https://github.com/tildejustin/modid/issues"
+    "homepage": "https://modrinth.com/mod/random-skin",
+    "sources": "https://github.com/tildejustin/random-skin",
+    "issues": "https://github.com/tildejustin/random-skin/issues"
   },
   "license": "MIT",
   "environment": "*",
   "mixins": [
-    "modid.mixins.json"
+    "random-skin.mixins.json"
   ],
   "depends": {
     "minecraft": "*"
